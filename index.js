@@ -15,7 +15,7 @@ const port = 5000;
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-    origin: "http://localhost:3000"
+    origin: "https://password-reset-client.vercel.app/"
     // https://legendary-platypus-57e55d.netlify.app/
 }));
 app.use(router);
